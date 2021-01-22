@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Guard.MainActivity">
+
+    <LinearLayout
+        android:background="@color/purpleMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/Ed_GuardMain_SearchName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:hint="Search Name"
+            android:text="ALL" />
+
+        <Button
+            android:id="@+id/Btn_GuardMain_Search"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/redMain"
+            android:text="SEARCH"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_GuestGuard"
+        android:layout_width="match_parent"
+        android:background="@drawable/background_guard"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/linerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/whiteMain"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Btn_AllGuestGuard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/blueMain"
+            android:text="ALL GUEST" />
+
+        <Button
+            android:id="@+id/Btn_UploadGuest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/blueMain"
+            android:text="NEW GUEST" />
+
+        <Button
+            android:id="@+id/Btn_SettingGuard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/blueMain"
+            android:text="SETTING" />
+    </LinearLayout>
+
+</LinearLayout>

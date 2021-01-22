@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Ll_ActiveGuard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/circle"
+    android:backgroundTint="@color/whiteMain"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TvLr_GuestUidCitizemActive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="uidNumber" />
+
+    <TextView
+        android:id="@+id/TvLr_GuestNameCitizenActive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="NAME"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/TvLr_GuestDescriptionCitizenActive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="description of work"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TvLr_GuestDateEnterCitizenActive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Date in"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_marginLeft="8dp"
+            android:id="@+id/BtnLr_GuestOutGuardActiveExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="#89cff0"
+            android:text="ALLOW EXIT" />
+    </LinearLayout>
+
+    <Button
+        android:layout_margin="8dp"
+        android:id="@+id/BtnLr_GuestNumberActive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/circle"
+        android:backgroundTint="@color/redMain"
+        android:text="CALL GUEST" />
+
+</LinearLayout>

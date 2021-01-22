@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "345994180830",
+    "firebase_url": "https://homesecurity-9455f.firebaseio.com",
+    "project_id": "homesecurity-9455f",
+    "storage_bucket": "homesecurity-9455f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345994180830:android:23529ca1f4377a823e2a4f",
+        "android_client_info": {
+          "package_name": "com.example.homesecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345994180830-ns5nu9d1g9q0dva2n008kogl1j4n91vi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz7ZqqgrlpDX0rN_iNxksi3ecodyJsGz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345994180830-ns5nu9d1g9q0dva2n008kogl1j4n91vi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

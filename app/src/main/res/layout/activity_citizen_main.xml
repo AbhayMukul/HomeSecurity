@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Citizen.CitizenMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purpleMain"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/Ed_CitizenMain_SearchName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:hint="Search Name"
+            android:text="ALL" />
+
+        <Button
+            android:id="@+id/Btn_CitizenMain_Search"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/redMain"
+            android:text="SEARCH" />
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_GuestCitizen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/background_main_all" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Btn_AllGuestCitizen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/redMain"
+            android:text="ALL Guest" />
+
+        <Button
+            android:id="@+id/Btn_NoticeCitizen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/redMain"
+            android:text="Notice" />
+
+        <Button
+            android:id="@+id/Btn_SettingsCitizen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/redMain"
+            android:text="SETTINGS" />
+
+        <Button
+            android:id="@+id/Btn_FamilyCitizen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/redMain"
+            android:text="Family" />
+
+    </LinearLayout>
+</LinearLayout>

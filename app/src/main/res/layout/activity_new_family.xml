@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Citizen.NewFamilyActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:text="NEW MEMBER?"
+        android:textColor="@color/redMain"
+        android:textSize="24dp" />
+
+    <EditText
+        android:layout_margin="16dp"
+        android:id="@+id/Ed_NewFamilyActivity_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Name" />
+
+    <EditText
+        android:layout_margin="16dp"
+        android:id="@+id/Ed_NewFamilyActivity_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Password" />
+
+    <EditText
+        android:layout_margin="16dp"
+        android:id="@+id/Ed_NewFamilyActivity_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Phone" />
+
+    <Button
+        android:id="@+id/Btn_NewFamilyActivity_Done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/redMain"
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/tv_hintCitizenLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:text="fill the details to make a new member of your flat" />
+
+</LinearLayout>

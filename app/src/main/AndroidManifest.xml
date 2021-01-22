@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homesecurity">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar.DarkMode">
+        <activity android:name=".Activity.Citizen.SettingActivityCitizen"></activity>
+        <activity android:name=".Activity.Login.Citizen.LoginPhone.LoginPhoneActivity" />
+        <activity android:name=".Activity.Citizen.NewFamilyActivity" />
+        <activity android:name=".Activity.Citizen.FamilyActivity" />
+        <activity android:name=".Activity.Login.Citizen.OTPCitizenLoginActivity" />
+        <activity android:name=".Activity.Guard.OTPActivity" />
+        <activity android:name=".Activity.Common.NoticeActivity" />
+        <activity android:name=".Activity.Common.GuestDescriptionActivity" />
+        <activity android:name=".Activity.Common.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.Common.SettingCitizenActivity" />
+        <activity android:name=".Activity.Citizen.NoticeCitizenActivity" />
+        <activity android:name=".Activity.Admin.AdminNoticeActivity" />
+        <activity android:name=".Activity.Admin.AdminGuardActivity" />
+        <activity android:name=".Activity.Admin.AdminFlatActivity" />
+        <activity android:name=".Activity.Admin.AdminMainActivity" />
+        <activity android:name=".Activity.Login.Citizen.CitizenLoginNewActivity" />
+        <activity android:name=".Activity.Login.Citizen.CitizenLoginOldOwnerActivity" />
+        <activity android:name=".Activity.Citizen.CitizenAllGuestActivity" />
+        <activity android:name=".Activity.Guard.GuardAllActivity" />
+        <activity android:name=".Activity.Login.Guard.GuardLoginActivity" />
+        <activity android:name=".Activity.Login.Citizen.LoginCitizenFlatActivity" />
+        <activity android:name=".Activity.Login.LoginActivity" />
+        <activity android:name=".Activity.Guard.PhoneGuardActivity" />
+        <activity android:name=".Activity.Citizen.CitizenMainActivity" />
+        <activity android:name=".Activity.Guard.UploadGuestActivity" />
+        <activity android:name=".Activity.Guard.MainActivity" />
+    </application>
+
+</manifest>

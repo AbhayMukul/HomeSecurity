@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Login.Guard.GuardLoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="@color/purpleMain"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/Ed_CodeGuard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="ID" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/Ed_PasswordGuard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/Btn_GuardNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/blueMain"
+        android:text="LOGIN" />
+
+</LinearLayout>
